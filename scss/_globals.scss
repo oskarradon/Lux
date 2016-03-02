@@ -1,5 +1,5 @@
 body {
-  background: $color-prim;
+  background: $color-background;
   font-family: 'Helvetica Neue';
   width: 100%;
   margin: 0;
@@ -7,7 +7,7 @@ body {
 
 header, footer {
   width: 100%;
-  background: $color-prim;
+  background: $color-background;
   text-align: center;
   position: fixed;
   a {

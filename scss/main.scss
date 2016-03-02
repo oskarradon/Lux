@@ -1,7 +1,8 @@
 @import 'vendor/bourbon/bourbon';
 @import 'vendor/neat/neat';
-@import 'base/variables';
-@import 'base/globals';
+@import 'variables';
+@import 'colors';
+@import 'globals';
 
 article {
   h2 {
@@ -11,7 +12,7 @@ article {
   height: 300px;
   @include span-columns(12);
   @include omega();
-  @include media (800px) {
+  @include media ($main-breakpoint) {
     height: 500px;
     @include row (table);
     @include span-columns(6, block-collapse);
@@ -24,7 +25,7 @@ article {
       font-size: 3em;
       color: $color-title;
       border: 8px solid $color-title;
-      @include media (800px) {
+      @include media ($main-breakpoint) {
         font-size: 4em;
         border: 10px solid $color-title;
       }
