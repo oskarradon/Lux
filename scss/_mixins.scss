@@ -2,7 +2,7 @@
 
 @mixin main-img ($url, $id, $h2-width) {
   section##{$id} {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     height: 500px;
     @include span-columns(12);
     background: url($url);

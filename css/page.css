@@ -60,7 +60,7 @@ main {
     display: table; }
   main p {
     border-bottom: none;
-    padding: 20px;
+    padding: 40px;
     margin: 0; }
     @media screen and (min-width: 800px) {
       main p {
@@ -68,7 +68,7 @@ main {
         padding: 40px; } }
 
 section#acrnm {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -92,7 +92,7 @@ section#acrnm {
     padding: 10px; }
 
 section#alexander {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -116,7 +116,7 @@ section#alexander {
     padding: 10px; }
 
 section#ines {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -140,7 +140,7 @@ section#ines {
     padding: 10px; }
 
 section#carl {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -164,7 +164,7 @@ section#carl {
     padding: 10px; }
 
 section#grimes {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -188,7 +188,7 @@ section#grimes {
     padding: 10px; }
 
 section#azamat {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -212,7 +212,7 @@ section#azamat {
     padding: 10px; }
 
 section#turrell {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;
@@ -236,7 +236,7 @@ section#turrell {
     padding: 10px; }
 
 section#bernini {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   height: 500px;
   float: left;
   display: block;

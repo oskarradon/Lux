@@ -9,7 +9,7 @@ main {
   @include outer-container;
   p {
     border-bottom: none;
-    padding: 20px;
+    padding: 40px;
     margin: 0;
     @include media($main-breakpoint) {
       font-size: 1.1rem;
