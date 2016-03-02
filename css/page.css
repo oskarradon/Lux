@@ -60,12 +60,12 @@ main {
     display: table; }
   main p {
     border-bottom: none;
-    padding: 20px; }
+    padding: 20px;
+    margin: 0; }
     @media screen and (min-width: 800px) {
       main p {
         font-size: 1.1rem;
-        padding: 40px;
-        border-bottom: 2px solid black; } }
+        padding: 40px; } }
 
 section#acrnm {
   margin-bottom: 50px;

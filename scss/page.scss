@@ -10,10 +10,10 @@ main {
   p {
     border-bottom: none;
     padding: 20px;
+    margin: 0;
     @include media($main-breakpoint) {
       font-size: 1.1rem;
       padding: 40px;
-      border-bottom: 2px solid black;
     }
   }
 }
