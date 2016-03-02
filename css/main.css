@@ -58,8 +58,11 @@ article {
   width: 100%;
   margin-right: 0; }
   article h2 {
+    height: 100%;
+    width: 100%;
     display: none;
-    padding: 10px; }
+    text-align: center;
+    padding: 20px; }
   article:last-child {
     margin-right: 0; }
   @media screen and (min-width: 800px) {
@@ -73,7 +76,6 @@ article {
   article:hover h2 {
     margin: 0;
     display: block;
-    text-align: center;
     font-size: 3em;
     color: #9DFF00;
     border: 8px solid #9DFF00; }

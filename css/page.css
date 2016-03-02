@@ -282,29 +282,4 @@ section#bernini {
     width: 100%;
     margin-bottom: -4px; }
 
-.col2 {
-  height: 100%;
-  width: 100%;
-  height: 100%;
-  width: 100%;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  .col2:last-child {
-    margin-right: 0; }
-  .col2:nth-child(n) {
-    margin-right: 0; }
-  @media screen and (min-width: 800px) {
-    .col2 {
-      margin-right: 0;
-      float: left;
-      display: block;
-      width: 51.17883%; }
-      .col2:last-child {
-        width: 48.82117%; } }
-  .col2 img {
-    width: 100%;
-    margin-bottom: -4px; }
-
 /*# sourceMappingURL=page.css.map */
