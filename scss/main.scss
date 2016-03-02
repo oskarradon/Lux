@@ -33,14 +33,12 @@ article {
   }
 }
 
+// Generates main page image gallery
 @for $i from 1 through 8 {
   #img#{$i} {
     background-image: url('../img/#{$i}.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    &:hover::after {
-      opacity: 0.9;
-    }
   }
 }

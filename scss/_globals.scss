@@ -11,12 +11,19 @@ header, footer {
   text-align: center;
   position: fixed;
   a {
-    font-weight: bold;
-    padding: 10px;
     color: $color-text;
     text-decoration: none;
     &:hover {
       color: $color-hover;
+    }
+  }
+  nav {
+    a {
+      font-weight: bold;
+      padding: 10px;
+      &:hover {
+        color: $color-hover;
+      }
     }
   }
 }

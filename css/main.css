@@ -16,11 +16,14 @@ header, footer {
   text-align: center;
   position: fixed; }
   header a, footer a {
-    font-weight: bold;
-    padding: 10px;
     color: black;
     text-decoration: none; }
     header a:hover, footer a:hover {
+      color: #b2d1ff; }
+  header nav a, footer nav a {
+    font-weight: bold;
+    padding: 10px; }
+    header nav a:hover, footer nav a:hover {
       color: #b2d1ff; }
 
 header {
@@ -84,63 +87,47 @@ article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img1:hover::after {
-    opacity: 0.9; }
 
 #img2 {
   background-image: url("../img/2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img2:hover::after {
-    opacity: 0.9; }
 
 #img3 {
   background-image: url("../img/3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img3:hover::after {
-    opacity: 0.9; }
 
 #img4 {
   background-image: url("../img/4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img4:hover::after {
-    opacity: 0.9; }
 
 #img5 {
   background-image: url("../img/5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img5:hover::after {
-    opacity: 0.9; }
 
 #img6 {
   background-image: url("../img/6.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img6:hover::after {
-    opacity: 0.9; }
 
 #img7 {
   background-image: url("../img/7.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img7:hover::after {
-    opacity: 0.9; }
 
 #img8 {
   background-image: url("../img/8.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #img8:hover::after {
-    opacity: 0.9; }
 
 /*# sourceMappingURL=main.css.map */

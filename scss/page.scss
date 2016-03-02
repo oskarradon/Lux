@@ -18,6 +18,7 @@ main {
   }
 }
 
+// Generates hero images for each page
 @include main-img('../img/acrnm/ss.jpg', acrnm, 400px);
 @include main-img('../img/alexander/hole3.jpg', alexander, 450px);
 @include main-img('../img/ines/smoke.jpg', ines, 450px);
