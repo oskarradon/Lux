@@ -1,8 +1,8 @@
 @import 'vendor/bourbon/bourbon';
 @import 'vendor/neat/neat';
-@import 'base/_variables';
-@import 'base/_globals';
-@import 'base/_mixins';
+@import 'base/variables';
+@import 'base/globals';
+@import 'base/mixins';
 
 main {
   @include outer-container;
@@ -16,7 +16,6 @@ main {
     }
   }
 }
-
 
 @include main-img('../../img/acrnm/ss.jpg', acrnm, 400px);
 @include main-img('../../img/alexander/hole3.jpg', alexander, 450px);
@@ -58,12 +57,3 @@ main {
     margin-bottom: -4px;
   }
 }
-
-
-#bag {
-  margin-top: 300px;
-}
-
-// img:nth-cild(1) {
-//   @include span-columns(4);
-// }
