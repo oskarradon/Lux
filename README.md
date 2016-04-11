@@ -5,7 +5,7 @@
 By **Oskar Radon and Haley Bristol**
 
 #### Description
-Simple portfolio page using Sass and the Bourbon Neat grid system.
+Simple responsive portfolio page using Sass and the Bourbon Neat grid system. View a live version (here)[http://oskarradon.github.io/Lux/]
 
 #### Technologies Used
 Sass, CSS, HTML
