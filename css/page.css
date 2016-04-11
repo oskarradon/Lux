@@ -29,6 +29,9 @@ header, footer {
 header {
   height: 100px;
   top: 0; }
+  header h3 {
+    font-size: 2em;
+    line-height: .1em; }
 
 footer {
   height: 50px;
